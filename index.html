@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasper</title>
+    <meta name="description" content="Kasper">
+    <meta name="Author" content="Ahmed Adel">
+    <meta name="keywords" content="Kasper">
+    <meta name="robots" content="index , follow">
+
+    <meta property="og:title" content="Kasper">
+    <meta property="og:description" content="">
+    <meta property="og:image" content=""> <!--still dont have one yet -->
+    <meta property="og:url" content=""> <!--still dont have one yet -->
+    <meta property="og:type" content="website">
+
+    <!--Render All Elements Normally-->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!--Font Awesome Library-->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!--Main Template CSS File-->
+    <link rel="stylesheet" href="CSS/kasper.css">
+    <!--Used Fonts Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <!--This Code For Search Icon Bec. Font Awesome Did Not Include This In The File-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!--Start Of Header-->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img loading="lazy" src="images/logo.png" alt="Logo-Pic">
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul id="ul">
+                    <li><a id="home" class="active" href="#home">Home</a></li>
+                    <li><a id="services" href="#services">Services</a></li>
+                    <li><a id="protfolio" href="#protfolio">Protfolio</a></li>
+                    <li><a id="about" href="#about">About</a></li>
+                    <li><a id="pricing" href="#pricing">Pricing</a></li>
+                    <li><a id="contact" href="#contact">Contact</a></li>
+                </ul>
+                <div class="form">
+                    <input type="search" placeholder="Search" class="input" maxlength="10" minlength="4">
+                </div>
+                <i class="fas fa-search" id="icon"></i>
+            </nav>
+        </div>
+    </header>
+    <!--End Of Header-->
+    <!--Start Of Landing-->
+    <section class="landing"><!--I Didn't But Container Here Bec. I Want To Make The Image Full Width The Whole Page-->
+        <div class="overlay">
+            <div class="text">
+                <div class="content">
+                    <h2>
+                        Hello World <br>
+                        We Are Kasper We Make Art
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio
+                        nemo
+                        incidunt ea inventore atque sed nostrum quisquam
+                    </p>
+                </div>
+            </div>
+        </div>
+        <i id="left" class="fas fa-angle-left change-background-left fa-2x"></i>
+        <i id="right" class="fas fa-angle-right change-background-right fa-2x"></i>
+        <ul class="bullets">
+            <li class="left"></li>
+            <li class="active"></li>
+            <li class="right"></li>
+        </ul>
+    </section>
+    <!--End Of Landing-->
+
+    <!--Start Of Services-->
+    <section class="services">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio nemo
+                    incidunt ea inventore atque sed nostrum quisquam.</p>
+            </div>
+            <div class="services-container">
+                <div class="srv-box"> <!--box1-->
+                    <i class="fas fa-desktop da-3x fa-2x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio
+                            nemo
+                            incidunt ea inventore atque sed nostrum quisquam.</p>
+                    </div>
+                </div>
+                <div class="srv-box"> <!--box2-->
+                    <i class="fas fa-gear da-3x fa-2x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio
+                            nemo
+                            incidunt ea inventore atque sed nostrum quisquam.</p>
+                    </div>
+                </div>
+                <div class="srv-box"> <!--box3-->
+                    <i class="fas fa-pencil-ruler da-3x fa-2x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio
+                            nemo
+                            incidunt ea inventore atque sed nostrum quisquam.</p>
+                    </div>
+                </div>
+                <div class="srv-box"> <!--box4-->
+                    <i class="fas fa-camera da-3x fa-2x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio
+                            nemo
+                            incidunt ea inventore atque sed nostrum quisquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Of Services-->
+
+    <!--Start Of Design Section-->
+    <section class="design">
+        <div class="image">
+            <img loading="lazy" src="images/mobile.png" alt="Mobile-Pic">
+        </div>
+        <div class="text">
+            <h2>Our Design Comes With...</h2>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Modern And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
+            </ul>
+        </div>
+    </section>
+    <!--End Of Design Section-->
+
+    <!--Start Of Protfolio-->
+    <section class="protfolio">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Protfolio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio nemo
+                    incidunt ea inventore atque sed nostrum quisquam.</p>
+            </div>
+            <ul class="shuffle">
+                <li data-item=".all" class="active">All</li>
+                <li data-item=".app">App</li>
+                <li data-item=".photo">Photo</li>
+                <li data-item=".web">Web</li>
+                <li data-item=".print_">Print</li>
+            </ul>
+        </div>
+        <div class="imgs-contanier">
+            <div class="box all app print_">
+                <img loading="lazy" src="images/Design1.jpg" alt="Design-Pic-1">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box all photo print_">
+                <img loading="lazy" src="images/Design2.jpg" alt="Design-Pic-2">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box all app web">
+                <img loading="lazy" src="images/Design3.jpg" alt="Design-Pic-3">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box all photo print_">
+                <img loading="lazy" src="images/Design4.jpg" alt="Design-Pic-4">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box all web print_">
+                <img loading="lazy" src="images/Design5.jpg" alt="Design-Pic-5">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box all app web">
+                <img loading="lazy" src="images/Design6.jpg" alt="Design-Pic-6">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box all app photo">
+                <img loading="lazy" src="images/Design7.jpg" alt="Design-Pic-7">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="box all photo web">
+                <img loading="lazy" src="images/Design8.jpg" alt="Design-Pic-8">
+                <div class="caption">
+                    <h4>Awesome Image</h4>
+                    <p>Photography</p>
+                </div>
+            </div>
+            <div class="more-box">
+                <a href="#" class="more">More</a>
+            </div>
+        </div>
+    </section>
+    <!--End Of Protfolio-->
+
+    <!--Start Of Video Section-->
+    <section class="video">
+        <video autoplay muted loop>
+            <source src="images/YouCut_20231118_180212729.mp4" type="video/mp4">
+        </video>
+        <div class="text">
+            <h2>What Are you Waiting For ...</h2>
+            <p>It's All You Need</p>
+            <button>See More</button>
+        </div>
+    </section>
+    <!--End Of Video Section-->
+
+    <!--Start About-->
+    <section class="about">
+        <div class="contanier">
+            <div class="main-heading">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio nemo
+                    incidunt ea inventore atque sed nostrum quisquamLorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Architecto laborum natus distinctio nemo
+                    incidunt ea inventore atque sed nostrum quisquam.</p>
+            </div>
+            <img loading="lazy" src="images/about.png" alt="About-Us-Pic">
+        </div>
+    </section>
+    <!--End About-->
+
+    <!--Start Stats-->
+    <section class="stats">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-mug-hot"></i>
+                <div class="number">1,236</div>
+                <p>Coffee Drinks</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-folder"></i>
+                <div class="number">256</div>
+                <p>Completed Projects</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <div class="number">1,743</div>
+                <p>Mail Sent</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-trophy"></i>
+                <div class="number">17</div>
+                <p>Awards Received</p>
+            </div>
+        </div>
+    </section>
+    <!--End Stats-->
+
+    <!--Start Skills-->
+    <section class="our-skills">
+        <div class="container">
+            <div class="testimonials">
+                <h3>Testimonials</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio nemo
+                    incidunt ea inventore atque sed nostrum quisquam</p>
+                <div class="content">
+                    <img loading="lazy" src="images/Lalo.jpg" alt="Lalo-Pic" class="lalo">
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio
+                        nemo
+                        incidunt ea inventore atque sed nostrum quisquam
+                        <p>Lalo Salamanca ,AKA (Khokha De Guzman)</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img loading="lazy" src="images/WalterWhite.jpg" alt="WalterWhite-Pic" class="ww">
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio
+                        nemo
+                        incidunt ea inventore atque sed nostrum quisquam
+                        <p>Walter White ,AKA (The One Who Knocks)</p>
+                    </div>
+                </div>
+                <ul class="bullets">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio nemo
+                    incidunt ea inventore atque sed nostrum quisquam</p>
+                <div class="prog-holder">
+                    <h4>Adobe</h4>
+                    <div class="prog">
+                        <span style="width:90%" data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>HTML &amp; CSS</h4>
+                    <div class="prog">
+                        <span style="width:85%" data-progress="85%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>JavaScript</h4>
+                    <div class="prog">
+                        <span style="width:80%" data-progress="80%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>Php</h4>
+                    <div class="prog">
+                        <span style="width:75%" data-progress="75%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Skills-->
+
+    <!--Start Quote-->
+    <section class="quote">
+        <div class="container">
+            <q>MONEY IS THE POINT!</q>
+            <span>Saul Goodman</span>
+        </div>
+    </section>
+    <!--End Quote-->
+
+    <!--Start Pricing-->
+    <section class="pricing">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Pricing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio nemo
+                    incidunt ea inventore atque sed nostrum quisquam.</p>
+            </div>
+            <div class="plans">
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No.1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No.2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <footer>
+                        <a href="#">Buy Now</a>
+                    </footer>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Premium</h3>
+                        <span>29</span>
+                    </div>
+                    <ul>
+                        <li>Feature No.1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No.2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <footer>
+                        <a href="#">Buy Now</a>
+                    </footer>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Pro</h3>
+                        <span>39</span>
+                    </div>
+                    <ul>
+                        <li>Feature No.1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No.2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <footer>
+                        <a href="#">Buy Now</a>
+                    </footer>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Platinum</h3>
+                        <span>49</span>
+                    </div>
+                    <ul>
+                        <li>Feature No.1</li>
+                        <li>Extra Feature</li>
+                        <li>Extra Feature No.2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <footer>
+                        <a href="#">Buy Now</a>
+                    </footer>
+                </div>
+            </div>
+            <p class="contact-text">Contact Us If You Have A Special Request</p>
+            <a href="#" class="contact-link">Contact Us</a>
+        </div>
+    </section>
+    <!--End Pricing-->
+
+    <!--Start Subscribe-->
+    <section class="subscribe">
+        <div class="container">
+            <form action="">
+                <i class="far fa-envelope fa-lg"></i>
+                <input type="email" name="mail" placeholder="Your Email">
+                <input type="submit" value="Subscribe">
+            </form>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio nemo
+                incidunt ea inventore atque sed nostrum quisquam.</p>
+        </div>
+    </section>
+    <!--End Subscribe-->
+
+    <!--Start Contact-->
+    <section class="contact-us">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum natus distinctio nemo
+                    incidunt ea inventore atque sed nostrum quisquam.</p>
+            </div>
+            <div class="content">
+                <form action="">
+                    <input class="main-input" type="text" name="name" placeholder="Your Name">
+                    <input class="main-input" type="email" name="email" placeholder="Your Email">
+                    <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+                <div class="info">
+                    <h4>Get In Touch</h4>
+                    <span class="phone">+00 123 456 789</span>
+                    <span class="phone">+00 123 456 789</span>
+                    <h4>Where We Are</h4>
+                    <address>
+                        Awesome Address 17<br>New York, NYC<br>123-4567-890<br>USA
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Contact-->
+
+    <!--Start Footer-->
+    <footer class="footer-2">
+        <div class="container">
+            <img loading="lazy" src="images/logo.png" alt="Logo-Pic">
+            <p>We Are Social</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fas fa-home"></i>
+
+            </div>
+            <p class="copyright">&copy; 2023 <span>Kasper </span>All Right Reserved</p>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <script src="mian.js/kasper.JS"></script>
+</body>
+
+</html>
